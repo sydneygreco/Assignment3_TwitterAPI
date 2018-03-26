@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+	margin:0px;
+}
+
+body {
+	background-image: url("images/pineapple_background.jpg");
+	background-repeat: horizontal;
+}
+
+h1, h3{
+	color: #d62255;
+	font-family: 'Pompiere', cursive;
+
+}
+
+.bottom-border{
+	border-style: dotted;
+	border-color: #aee8ef;
+	border-width: 5px;
+}
+h4 {
+	color: pink;
+	font-family: 'Pompiere', cursive;
+}
+
+hr {
+	border: none;
+	border-top: 5px dotted #aee8ef;
+}
+
+
+a{
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	font-size: 30px;
+}
+
+a:link{
+	color: #aee8ef;
+}
+
+a:hover{
+	color: #f7f583;
+}
+
+a:visited{
+	color: #d62255;
+}
+
+.banner {
+	width: 100%;
+	height: 125px; 
+	background-color: transparent;
+}
+.grid-container{
+	display: grid;
+	width: 60%;
+	margin: auto;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+	background-color: white;
+	padding: 10px;
+}
+
+.grid-container > div {
+	background-color: white;
+	text-align: center;
+	padding: 20px 0; 
+	font-size: 30px;
+}
+
